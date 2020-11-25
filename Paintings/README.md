@@ -29,3 +29,7 @@ Here we have also the testModel function with flow_from_dataframe predictions. T
 
 All right, so one can see for from_imagenet_FORM_2.h5 file we have FORM_2ACC.png that says that validation accuracy is about 90% - that is quite nice.
 
+<img src="FORM_2ACC.png"
+     alt="TestImage"
+     style="float: left; margin-right: 10px;" />
+

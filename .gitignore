@@ -1,2 +1,6 @@
 *.mkv
 diabetes/venv/
+Paintings/Images
+Paintings/ImagesTest
+Paintings/Images_grey
+Paintings/*.h5

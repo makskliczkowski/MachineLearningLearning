@@ -1,4 +1,5 @@
-# Paintings Neural Network
+# MachineLearningLearning
+Simple examples of code to learn ML methods
 
 This is a project that contains neural network in Keras to provide user with the recognition on FORM of art.
 

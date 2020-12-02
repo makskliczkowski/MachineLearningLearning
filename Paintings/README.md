@@ -22,6 +22,8 @@ that takes the directory and alows to download new images given the dataframe. N
 
 Okay, so as we created the dataframes we take our _network.py file and there build network using VGG19 model from Keras library. Then we add 3 layers and freeze the network so only them can learn.
 After that we unfreeze last convolutional layers and owing to that the network provides us with a .h5 file. Reminder - we can change the column of the trained parameters, yet only 65% max has been achieved for the others.
+The loss function is categorical crossentropy as in most multi-categories project. Also, a few activation functions have been used, yet, with all probabilistic ones, there's no much gain using one or another. 
+
 Here we have also the testModel function with flow_from_dataframe predictions. There is a problem with that so:
 
 * [x] CREATE WORKING MODEL WITH GOOD EVALUATION

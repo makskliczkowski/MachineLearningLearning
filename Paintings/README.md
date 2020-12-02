@@ -24,6 +24,8 @@ Okay, so as we created the dataframes we take our _network.py file and there bui
 After that we unfreeze last convolutional layers and owing to that the network provides us with a .h5 file. Reminder - we can change the column of the trained parameters, yet only 65% max has been achieved for the others.
 The loss function is categorical crossentropy as in most multi-categories project. Also, a few activation functions have been used, yet, with all probabilistic ones, there's no much gain using one or another. 
 
+The network is trained to predict the type of art, and the types are listed in the .xls files, there are 13 of them. Not all columns can probably predicted accurately as not all informations is provided just by looking at the picture. Probably, multilabel system for other columns would work quite better, one can try to test it, as it is not much work. 
+
 Here we have also the testModel function with flow_from_dataframe predictions. There is a problem with that so:
 
 * [x] CREATE WORKING MODEL WITH GOOD EVALUATION
